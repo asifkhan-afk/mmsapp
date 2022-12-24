@@ -1,2 +1,2 @@
 
-web gunicorn MosqueManagementSys.wsgi --log-file -
+web: gunicorn MosqueManagementSys.wsgi --log-file -
