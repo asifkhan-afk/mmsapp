@@ -1,2 +1,2 @@
-
-web: gunicorn MosqueManagementSys.wsgi --log-file -
+web: aldryn-django web
+migrate: aldryn-django migrate
